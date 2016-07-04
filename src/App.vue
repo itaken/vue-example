@@ -2,7 +2,6 @@
   <div id="app">
     <img class="logo" src="./assets/logo.png">
     <hello></hello>
-    <sidebar></sidebar>
     <p>
       Welcome to your Vue.js app!
     </p>
@@ -25,7 +24,6 @@
 
 <script>
 import Hello from './components/Hello'
-import sidebar from './components/sidebar'
 
 export default {
   components: {

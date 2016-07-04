@@ -2,7 +2,6 @@
   <div class="container">
     <img class="logo" src="./assets/logo.png">
     <hello></hello>
-    <sidebar></sidebar>
     <p>
       Welcome to your Vue.js app!
     </p>
