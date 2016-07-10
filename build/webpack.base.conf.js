@@ -1,6 +1,8 @@
 var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
+    // var ExtractTextPlugin = require("extract-text-webpack-plugin"); // 提取css到文件
+
 var projectRoot = path.resolve(__dirname, '../')
 
 module.exports = {
