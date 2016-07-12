@@ -48,8 +48,8 @@
     import sidebar from './views/sidebar.vue';
 
     export default {
-      components: {
-          sidebar
+        components: {
+            'sidebar':sidebar
         }
     }
 </script>
@@ -57,9 +57,10 @@
 <style lang="scss">
     @import "~amazeui/dist/css/amazeui.min.css";
     @import "./assets/admin.css";
-    @import "variables";
+    @import "variables";  // 自定义常量
     @import "compass/support","compass/css3";
-    // defind support browsers
+    // 定义支持的浏览器
     $supported-browsers: chrome,firefox,ie,opera,safari;
+    // 定义最低支持浏览器版本
     $browser-minimum-versions:("ie":"8");
 </style>

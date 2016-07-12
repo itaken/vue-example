@@ -18,6 +18,14 @@ Vue.config.debug = true;
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
+// If your web server can't handle requests encoded as application/json
+// Vue.http.options.emulateJSON = true;
+// If your web server can't handle REST/HTTP requests like PUT, PATCH and DELETE
+// Vue.http.options.emulateHTTP = true;
+
+// Vue.http.options.root = '/root';
+// Vue.http.headers.common['Authorization'] = 'Basic XYZ';
+
 var router = new VueRouter();
 
 router.map(routes);
@@ -27,6 +35,7 @@ router.map(routes);
 //     name: 'login'
 // });
 
+// 内容主题
 import AppMain from './App';
 Vue.component('app-main', AppMain);
 
@@ -37,4 +46,4 @@ router.afterEach(function(transition) {
     console.log('成功浏览到: ' + transition.to.path);
 });
 
-router.start(App, '#app-main');
+router.start(App, '#vue-main');

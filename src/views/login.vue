@@ -25,3 +25,17 @@
       </div>
     </div>
 </template>
+
+<script>
+  module.exports = {
+    data :function() {
+        document.title = '登录页'
+    },
+    methods: {
+        "doSearch": function(){
+            alert('yeah~');
+        }
+    }
+};
+
+</script>

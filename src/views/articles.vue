@@ -1,31 +1,121 @@
 <template>
-<grid>
-  <column v-bind:sm="12" v-bind:md="12" v-bind:lg="8">
-    <am-article title="永远的蝴蝶" meta="陈启佑（台湾） | xx 年 xx 月">
-      <lead>《永远的蝴蝶》是台湾著名作家陈启佑先生的一篇小小说。这是一篇散文化的微型小说，其语言具有较强的抒情色彩，立意含蓄隽永。作品情节很简单，写的是一个凄美的爱情故事。在一个雨天，“我”的恋人樱子自愿帮“我”到马路对面去寄信。随着一阵拔尖的刹车声，樱子年轻的生命消逝了。</lead>
-      <h2>《永远的蝴蝶》原文</h2>
-      <p>那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。我们就在骑楼下躲雨，看绿色的邮筒孤独地站在街的对面。我白色风衣的大口袋里有一封要寄给南部的母亲的信。樱子说她可以撑伞过去帮我寄信。我默默点头。</p>
-      <p>“谁叫我们只带来一把小伞哪。”她微笑着说，一面撑起伞，准备过马路帮我寄信。从她伞骨渗下来的小雨点，溅在我的眼镜玻璃上。</p>
-      <p>随着一阵拔尖的煞车声，樱子的一生轻轻地飞了起来。缓缓地，飘落在湿冷的街面上，好像一只夜晚的蝴蝶。</p>
-      <p>虽然是春天，好像已是秋深了。</p>
-      <p>她只是过马路去帮我寄信。这简单的行动，却要叫我终身难忘了。我缓缓睁开眼，茫然站在骑楼下，眼里裹着滚烫的泪水。世上所有的车子都停了下来，人潮涌向马路中央。没有人知道那躺在街面的，就是我的，蝴蝶。这时她只离我五公尺，竟是那么遥远。更大的雨点溅在我的眼镜上，溅到我的生命里来。</p>
-      <p>为什么呢？只带一把雨伞？</p>
-      <p>然而我又看到樱子穿着白色的风衣，撑着伞，静静地过马路了。她是要帮我寄信的。那，那是一封写给南部母亲的信。我茫然站在骑楼下，我又看到永远的樱子走到街心。其实雨下得并不大，却是一生一世中最大的一场雨。而那封信是这样写的，年轻的樱子知不知道呢？</p>
-      <blockquote><p>妈：我打算在下个月和樱子结婚。</p></blockquote>
-      <h2>作者简介</h2>
-      <p>《永远的蝴蝶》作者陈启佑，笔名渡也、江山之助，台湾省嘉义市人，中国文化大学中国文学博士，曾任教于嘉义农专、台湾教育学院。</p>
-      <hr className="am-article-divider">
-      <h2>文章赏析</h2>
-      <h3>赏析一</h3>
-      <p>《永远的蝴蝶》就像一支低沉而哀怨的悲曲，幽幽道来，委婉动人。读罢此文，脑海中一直浮现着这样一个场景：阴雨中，樱子如蝴蝶般轻轻飞了起来，又缓缓落到了街面上。雨是冰凉的，街面是湿冷的，蝴蝶的飘飞是凄美的，又是令人伤痛的。</p>
-      <h3>赏析二</h3>
-      <p>文章有几点尤值得我们好好品味。一是作品以“雨”为线索，贯穿全文的始终。悲剧因“雨”而生，小说开篇写“雨”，正是对不幸和灾难起因的一个交代。樱子遭遇不幸后，又写“更大的雨点溅在我的眼镜上，溅到我的生命里来”，“成为一生一世的一场雨”。显然，“雨”又成为泪水和痛苦的象征。同时，以“雨”贯穿全文，也造成笼罩全文的阴冷凄凉的氛围。二是作家善于反复运用细节。如三次写到“站在骑楼下”，以此使“我”的情感思绪变化的脉络和层次更加清楚明显；两次写到樱子“穿着白色的风衣，撑着伞”，这是对“我”的心理刻画，突出了樱子美丽清纯的形象，也表达了“我”对樱子永不磨灭的爱。三是高超的谋篇布局技巧。直到作品的结尾处才告诉读者信的内容，这样构思，无疑加重了作品的悲剧色彩，让人哀痛欲绝，心不堪受。正因为作家善于谋篇布局，匠心独运，作品才有了很强的感染力。</p>
-    </am-article>
-  </column>
-</grid>
+    <div class="am-g am-g-fixed">
+        <article class="blog-main">
+          <h3 class="am-article-title blog-title">
+            <a href="#">Google fonts 的字體（display 篇）</a>
+          </h3>
+          <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
+          <div class="am-g blog-content">
+            <div class="am-u-lg-7">
+              <p><!-- 本demo来自 http://blog.justfont.com/ -->你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+              <p>因為那實在是太高級了。</p>
+              <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times New
+                Roman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+            </div>
+            <div class="am-u-lg-5">
+              <p><img src="http://f.cl.ly/items/451O3X0g47320D203D1B/不夠活潑.jpg"></p>
+            </div>
+          </div>
+          <div class="am-g">
+            <div class="am-u-sm-12">
+              <p>看著自己的作品，你的喜悅之情溢於言表，差點就要說出我要感謝我的父母之類的得獎感言。但在你對面的客戶先是一點表情也沒有，又瞬間轉為陰沉，抿了抿嘴角冷冷的說……</p>
+              <p>「我要一種比較跳的感覺懂嗎？」</p>
+            </div>
+          </div>
+        </article>
+        <hr class="am-article-divider blog-hr">
+        <article class="blog-main">
+          <h3 class="am-article-title">
+            <a href="#">身邊的字體: Arial (上)</a>
+          </h3>
+          <h4 class="am-article-meta blog-meta">by <a href="">ben</a> posted on 2014/06/17 under <a href="#">javascript</a>
+          </h4>
+          <div class="am-g blog-content">
+            <div class="am-u-lg-7">
+              <p><!--本demo文字来自 http://blog.justfont.com/--> 这次要介绍的是大家似乎都狠熟悉却又狠陌生的字体：Arial。不只是对 Typography
+                特别有兴趣的人、碰过排版的人，就算毫无接触，只要打开过电脑的字型选单，应该都有看过这个字型吧。尤其它还是以 A 开头，总是会出现在选单最前面。</p>
 
+              <p>Arial 常常跟 Helvetica 搞混，也常被当作是没有 Helvetica 时的替代字体使用。事实上 Arial 确实就是故意做得跟 Helvetica 狠相似，连每个字母的宽度都刻意做得一模一样。</p>
+            </div>
+            <div class="am-u-lg-5">
+              <p><img src="https://farm3.staticflickr.com/2917/14186214720_5d0b8ca2e3_b.jpg"></p>
+            </div>
+          </div>
+          <div class="am-g">
+            <div class="am-u-sm-12">
+              <p>在欧美的排版业界中，使用 Arial 的作品意即是「不使用 Helvetica 的作品」，会被认為是设计师对字体的使用没有概念或是太容易妥协，基本上我大致也是同意。</p>
+              <p>因為 Helvetica 只有 Mac 上才有內建，Windows 用戶除非花錢買，不然是沒有 Helvetica 能用，所以使用 Arial 的設計師往往被看成是不願意對 Typography
+                花錢，專業素養不到家的人。除了在確保網頁相容性等絕對必需的情況外，幾乎可以說是不應該使用的字體。</p>
+              <p>但是，在此之前，我們對 Arial 又有多少認識呢？</p>
+            </div>
+          </div>
+        </article>
+        <hr class="am-article-divider blog-hr">
+        <ul class="am-pagination blog-pagination">
+          <li class="am-pagination-prev"><a href="">&laquo; 上一页</a></li>
+          <li class="am-pagination-next"><a href="">下一页 &raquo;</a></li>
+        </ul>
+  </div>
 </template>
 
 <script>
-module.exports = {};
+    module.exports = {};
 </script>
+
+<style>
+    @media only screen and (min-width: 1200px) {
+      .blog-g-fixed {
+        max-width: 1200px;
+      }
+    }
+
+    @media only screen and (min-width: 641px) {
+      .blog-sidebar {
+        font-size: 1.4rem;
+      }
+    }
+
+    .blog-main {
+      padding: 20px 0;
+    }
+
+    .blog-title {
+      margin: 10px 0 20px 0;
+    }
+
+    .blog-meta {
+      font-size: 14px;
+      margin: 10px 0 20px 0;
+      color: #222;
+    }
+
+    .blog-meta a {
+      color: #27ae60;
+    }
+
+    .blog-pagination a {
+      font-size: 1.4rem;
+    }
+
+    .blog-team li {
+      padding: 4px;
+    }
+
+    .blog-team img {
+      margin-bottom: 0;
+    }
+
+    .blog-content img,
+    .blog-team img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .blog-footer {
+      padding: 10px 0;
+      text-align: center;
+    }
+    .blog-hr{
+        margin: 0;
+    }
+</style>
