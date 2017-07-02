@@ -59,8 +59,4 @@
     @import "./assets/admin.css";
     @import "variables";  // 自定义常量
     @import "compass/support","compass/css3";
-    // 定义支持的浏览器
-    $supported-browsers: chrome,firefox,ie,opera,safari;
-    // 定义最低支持浏览器版本
-    $browser-minimum-versions:("ie":"8");
 </style>
